@@ -3,128 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog de Anatomia: Desenho Humano</title>
-    <style>
-        /* Estilização Geral */
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-
-        header {
-            background-color: #2c3e50;
-            color: #ffffff;
-            padding: 20px text-align: center;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-
-        main {
-            max-width: 800px;
-            margin: 30px auto;
-            padding: 20px;
-            background: #ffffff;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            border-radius: 8px;
-        }
-
-        h2 {
-            color: #2c3e50;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 5px;
-            margin-top: 40px;
-        }
-
-        p {
-            margin-bottom: 15px;
-        }
-
-        /* Estilização dos Blocos de Imagem/Placeholder */
-        .image-placeholder {
-            background-color: #e0e0e0;
-            border: 2px dashed #7f8c8d;
-            border-radius: 6px;
-            padding: 40px 20px;
-            text-align: center;
-            font-style: italic;
-            color: #555;
-            margin: 20px 0;
-        }
-
-        .tips-box {
-            background-color: #e8f4f8;
-            border-left: 5px solid #3498db;
-            padding: 15px;
-            margin: 20px 0;
-            border-radius: 0 6px 6px 0;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #2c3e50;
-            color: white;
-            margin-top: 50px;
-        }
-    </style>
+    <title>Fashion Sketchbook | Blog de Moda</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>Mastering Anatomy: Desenho de Corpo Humano</h1>
-        <p>Aprenda as diferenças e proporções para desenhar corpos masculinos e femininos</p>
+        <h1>Fashion Sketchbook</h1>
+        <p>Inspirações, croquis e os desenhos dos maiores estilistas do mundo</p>
     </header>
 
-    <main>
-        <article>
-            <h2>Introdução: A Regra das 8 Cabeças</h2>
-            <p>Para desenhar a anatomia humana de forma proporcional, tanto para homens quanto para mulheres, os artistas costumam usar a unidade de medida baseada no **tamanho da cabeça**. Um corpo padrão idealizado costuma ter entre 7,5 a 8 cabeças de altura.</p>
-            
-            <div class="image-placeholder">
-                [Espaço para Imagem: Diagrama da Proporção de 8 Cabeças]
-                <br><small>(Substitua este bloco por uma tag &lt;img src="sua-imagem.jpg"&gt; quando tiver a ilustração)</small>
+    <main class="container">
+        <article class="post">
+            <img src="imagens/alta-costura.jpg" alt="Desenho de Alta Costura" class="post-img">
+            <div class="post-content">
+                <span class="categoria">Alta Costura</span>
+                <h2>Os Traços Icônicos de Alexander McQueen</h2>
+                <p>Alexander McQueen era conhecido por seus croquis dramáticos e teatrais. Seus desenhos capturavam a energia exata que ele queria transmitir nas passarelas de Paris...</p>
+                <a href="#" class="btn-ler-mais">Ler mais</a>
             </div>
+        </article>
 
-            <h2>1. Anatomia do Corpo Masculino</h2>
-            <p>O corpo masculino tende a ser construído com formas mais angulares e retas. As principais características geométricas que você deve observar são:</p>
-            <ul>
-                <li><strong>Ombros largos:</strong> A largura dos ombros geralmente corresponde a duas cabeças e meia de largura.</li>
-                <li><strong>Tronco em formato de "V":</strong> Os ombros são visivelmente mais largos que a cintura e o quadril.</li>
-                <li><strong>Linhas retas:</strong> Menor definição de curvas nas transições dos músculos.</li>
-            </ul>
-
-            <div class="image-placeholder">
-                [Espaço para Imagem: Esboço da Anatomia Masculina - Passo a Passo]
-            </div>
-
-            <h2>2. Anatomia do Corpo Feminino</h2>
-            <p>O corpo feminino é caracterizado por formas mais suaves, curvas e uma distribuição de peso visual diferente da masculina:</p>
-            <ul>
-                <li><strong>Formato de Ampulheta:</strong> Os ombros e os quadris possuem larguras muito semelhantes, enquanto a cintura é mais fina.</li>
-                <li><strong>Quadril mais largo:</strong> A estrutura pélvica feminina é naturalmente mais larga para acomodar a anatomia biológica.</li>
-                <li><strong>Linhas fluidas:</strong> As transições musculares e de gordura corporal criam silhuetas mais arredondadas.</li>
-            </ul>
-
-            <div class="image-placeholder">
-                [Espaço para Imagem: Esboço da Anatomia Feminina - Passo a Passo]
-            </div>
-
-            <div class="tips-box">
-                <strong>Dica de Ouro:</strong> Comece sempre pelo "boneco de palitinhos" (estrutura de arame) e pelas formas geométricas básicas (círculos para articulações, caixas para o torso e quadril). Não tente desenhar os detalhes ou os músculos antes de a estrutura estar perfeitamente proporcional!
+        <article class="post">
+            <img src="imagens/vintage.jpg" alt="Desenho Vintage" class="post-img">
+            <div class="post-content">
+                <span class="categoria">Vintage</span>
+                <h2>A Elegância Clássica de Christian Dior</h2>
+                <p>O "New Look" de 1947 começou com linhas simples e silhuetas marcadas no papel. Entenda como os desenhos de Dior revolucionaram a história da moda no pós-guerra...</p>
+                <a href="#" class="btn-ler-mais">Ler mais</a>
             </div>
         </article>
     </main>
 
     <footer>
-        <p>&copy; 2026 Meu Blog de Desenho. Criado com dedicação para artistas em evolução.</p>
+        <p>&copy; 2026 Fashion Sketchbook. Desenvolvido com VS Code.</p>
     </footer>
 
 </body>
